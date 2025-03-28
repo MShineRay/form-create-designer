@@ -1,21 +1,20 @@
 {
-    "name": "form-create-designer",
-    "private": true,
+    "name": "@form-create/vue3-demo",
     "description": "FormCreate低代码可视化表单设计器",
     "scripts": {
         "dev": "vite",
         "build:dev": "vite build",
         "preview": "vite preview",
-        "dev:ele": "lerna run dev --scope=@form-create/designer",
-        "dev:vant": "lerna run dev --scope=@form-create/vant-designer",
-        "dev:antd": "lerna run dev --scope=@form-create/antd-designer",
-        "dev:vue3": "lerna run dev --scope=@form-create/vue3-demo",
         "build": "lerna run build",
         "build:locale": "lerna run build:locale"
     },
     "type": "module",
     "dependencies": {
         "vue": "^3.5.13"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xaboy/form-create-designer.git"
     },
     "license": "MIT",
     "devDependencies": {
@@ -62,6 +61,6 @@
         "vite-plugin-css-injected-by-js": "^2.1.0",
         "vue-loader": "^15.9.3",
         "vue-style-loader": "^4.1.2",
-        "vue-template-compiler": "^2.6.11"
+        "vue-template-compiler": "2.7.16"
     }
 }
