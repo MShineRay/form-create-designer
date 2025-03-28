@@ -1,10 +1,7 @@
 {
   "npmClient": "pnpm",
   "packages": [
-    "packages/ant-design-vue",
-    "packages/element-ui",
-    "packages/vant",
-    "packages/vue3-demo"
+    "packages/element-ui"
   ],
   "version": "3.2.11"
 }
